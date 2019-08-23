@@ -1,0 +1,48 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+/* Targeting a class in CSS - every element with the class of header will recieve these css rules */
+
+.header {
+    display: fixed;
+    width: 100%;
+    font-weight: bold;
+    background-color: lawngreen;
+    height: 50px;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+    margin: 0;
+}
+
+#home_link {
+    float: left;
+}
+
+#about_link {
+    float: right;
+}
+
+.nav-link {
+    font-size: 24pt;
+    padding: 5px; 
+}
+
+img {
+    margin: 0 auto;
+    display: flex;
+} 
+
+h1, p {
+    text-align: center;
+    padding: 0 10px;
+}
