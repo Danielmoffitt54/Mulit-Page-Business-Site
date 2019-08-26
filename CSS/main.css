@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: whitesmoke;
     margin: 0;
 }
 
@@ -7,20 +7,20 @@ body {
 .header {
     display: fixed;
     width: 100%;
-    background-color: cyan;
+    background-color: rgba( 150, 0, 50, 1.0);
     overflow: hidden;
+}
+
+/* These CSS rules will be applied when you hover over an anchor element inside of an element using the header class */ 
+.header a:hover {
+    background-color: lightgray;
 }
 
 .headerLink {
     padding: 14px 16px; 
     text-decoration: none;
-    color: currentColor;
-    font-size: 20pt; 
-}
-
-.headerLink:hover {
     color: white;
-    text-decoration: underline;
+    font-size: 20pt; 
 }
 
 /* Target an ID in CSS- the element with the ID of homeLink will recieve these CSS rules */
@@ -30,14 +30,4 @@ body {
 
 #aboutLink {
     float: right;
-}
-
-img {
-    margin: 0 auto;
-    display: flex;
-} 
-
-h1, p {
-    text-align: center;
-    padding: 0 10px;
 }
