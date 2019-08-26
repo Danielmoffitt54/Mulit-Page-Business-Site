@@ -4,37 +4,32 @@ body {
 }
 
 /* Targeting a class in CSS - every element with the class of header will recieve these css rules */
-
 .header {
     display: fixed;
     width: 100%;
-    font-weight: bold;
-    background-color: lawngreen;
-    height: 50px;
+    background-color: cyan;
+    overflow: hidden;
 }
 
-a {
-    color: currentColor;
+.headerLink {
+    padding: 14px 16px; 
     text-decoration: none;
+    color: currentColor;
+    font-size: 20pt; 
 }
 
-a:hover {
+.headerLink:hover {
     color: white;
     text-decoration: underline;
-    margin: 0;
 }
 
-#home_link {
+/* Target an ID in CSS- the element with the ID of homeLink will recieve these CSS rules */
+#homeLink {
     float: left;
 }
 
-#about_link {
+#aboutLink {
     float: right;
-}
-
-.nav-link {
-    font-size: 24pt;
-    padding: 5px; 
 }
 
 img {
