@@ -31,3 +31,29 @@ body {
 #aboutLink {
     float: right;
 }
+
+footer {
+    bottom: 0;
+    height: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-transform: capitalize;
+}
+.footerLeft {
+    margin-left: 10px;
+
+}
+
+.footerRight {
+    margin-right: 10px;
+    text-align: right;
+}
+
+.footerLink {
+    margin: 15px 0 5px 0;
+}
+
+ a {
+     color: currentColor;
+     text-decoration: none;
+ }

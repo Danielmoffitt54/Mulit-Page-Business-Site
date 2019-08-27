@@ -5,9 +5,11 @@
 #businessLogo {
     display: block;
     margin: 0 auto;
+    width: 200px;
+    height: auto;
 }
 
-#businessDescription {
+.businessDescription {
     text-align: center;
     margin:20px;
 }
