@@ -1,6 +1,7 @@
 body {
     background-color: whitesmoke;
     margin: 0;
+     font-family: 'Open Sans', sans-serif;
 }
 
 /* Targeting a class in CSS - every element with the class of header will recieve these css rules */
@@ -30,6 +31,10 @@ body {
 
 #aboutLink {
     float: right;
+}
+
+.content {
+    padding-bottom: 200px;
 }
 
 footer {
